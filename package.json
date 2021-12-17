@@ -1,7 +1,7 @@
 {
   "name": "sitemap-links-ts",
   "description": "📦 NODE.TS - Crawl and parse links in sitemap recursively.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "repository": "BrunoS3D/sitemap-links-ts",
   "author": {
