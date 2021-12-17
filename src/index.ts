@@ -55,7 +55,7 @@ const fetchSitemap = (url: RequestInfo, timeout = 60000): Promise<any> => {
     .catch((e) => console.log(e));
 };
 
-const getSitemapLinks = async (url: RequestInfo, timeout: number): Promise<string[]> => {
+const getSitemapLinks = async (url: RequestInfo, timeout = 60000): Promise<string[]> => {
   try {
     // Fetch sitemap recursively
     let links = (await fetchSitemap(url, timeout)) as string[];

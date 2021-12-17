@@ -26,10 +26,11 @@
   ],
   "scripts": {
     "dev": "tsnd --transpile-only --respawn --no-notify --ignore-watch node_modules ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./dist/index.js",
     "build": "tsc -p ./tsconfig.build.json",
     "deploy": "yarn && yarn build && yarn start",
-    "prepublishOnly": "yarn run test && yarn run build"
+    "prepublishOnly": "yarn run build"
   },
   "devDependencies": {
     "@types/node": "^17.0.0",
