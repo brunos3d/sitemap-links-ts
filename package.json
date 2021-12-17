@@ -18,6 +18,7 @@
     "typescript",
     "node.js"
   ],
+  "type": "module",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",
   "files": [
