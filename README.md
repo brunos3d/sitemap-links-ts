@@ -1,4 +1,4 @@
-# Sitemap links TypeScript
+# Sitemap Links TypeScript
 
 📦 NODE.TS - Crawl and parse links in sitemap recursively.
 
@@ -6,7 +6,7 @@
 
 > ⚠ NOTICE: This project was initially created by https://github.com/gijo-varghese
 
-I restored it because the original project was removed for some reason, the original license was ISC, but if you are the author and want to remove this project, just contact me via email.
+I restored using the [NPM registry](https://www.npmjs.com/package/sitemap-links), I don't use the version that is in npm because it doesn't support TypeScript. I couldn't propose any kind of change, because the [original project](https://github.com/gijo-varghese/sitemap-links) was removed for some reason from GitHub, the original license was ISC, but if you are the author and want to remove this project, just [contact me](mailto:bruno3dcontato@gmail.com) by email.
 
 ## Installation
 
