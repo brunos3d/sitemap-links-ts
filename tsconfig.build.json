@@ -1,0 +1,17 @@
+{
+    "extends": "./tsconfig.json",
+    "files": [
+        "src/index.ts"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "lib": [
+            "es2017"
+        ],
+        // Declaration configuration
+        "declaration": true,
+        "declarationDir": "types/",
+        "outDir": "dist/"
+    }
+}
