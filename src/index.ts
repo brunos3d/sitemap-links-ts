@@ -71,4 +71,4 @@ const getSitemapLinks = async (url: RequestInfo, timeout = 60000): Promise<strin
   }
 };
 
-export = getSitemapLinks;
+export default getSitemapLinks;
